@@ -21,6 +21,19 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "cheri";
+  src: local("TAN - MON CHERI"), url("/tan-mon-cheri.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.cheri {
+  font-family: "cheri", serif;
+  color: var(--primaria);
+}
+
 * {
   margin: 0;
   list-style: none;
