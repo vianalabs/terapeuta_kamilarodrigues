@@ -1,10 +1,15 @@
 /* Utilidades */
 @import "/css/utilidades/utilidades.css";
 @import "/css/utilidades/cores.css";
+@import "/css/utilidades/simpleanime.css";
+
 
 /*Header*/
 @import "/css/header/header.css";
 
-/*Header*/
+/*Main*/
 @import "/css/main/banner.css";
+@import "/css/main/especialidades.css";
+@import "/css/main/terapia.css";
+
 
