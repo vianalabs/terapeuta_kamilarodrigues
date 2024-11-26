@@ -205,3 +205,16 @@
     display: block;
   }
 }
+
+@media (max-width:345px){
+  .logo {
+    width: 150px;
+  }
+
+  .menu {
+    box-sizing: border-box;
+  }
+  .btn-menu{
+    font-size: 12px;
+  }
+}

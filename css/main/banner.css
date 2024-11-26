@@ -30,6 +30,7 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    z-index: 100;
   }
   
   .banner-flex img {
@@ -63,6 +64,58 @@
       transform: scale(1.4);
     }
   }
+
+
+@media(max-width:1220px) {
+    .banner-flex h1 {
+        padding: 10px;
+    }
+
+    .respiracao{
+        right: 12%;
+        top: 25%;
+    }
+}
+@media(max-width:850px) {
+    .respiracao{
+        width: 300px;
+        height: 300px;
+        top: 10%;
+    }
+}
+
+@media(max-width:670px) {
+    .respiracao{
+        width: 200px;
+        height: 200px;
+        top: 30%;
+    }
+
+    .banner-flex h1{
+        font-size: 1.5rem;
+    }
+
+    .banner-flex {
+        height: 500px;
+    }
+}
+
+@media(max-width:550px) {
+    .respiracao{
+        background: radial-gradient(
+            circle,
+            rgb(141, 183, 218) 0%,
+            rgba(213, 214, 245, 0) 71%,
+            rgba(254, 255, 241, 0) 100%
+          );
+    }
+
+    .banner-flex h1 {
+        background-size: contain;
+        overflow: hidden;
+    }
+}
+
 
 
   /*Responsivo da respiração, h1 banner e logo bg*/
