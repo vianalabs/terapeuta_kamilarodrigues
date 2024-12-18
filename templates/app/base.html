@@ -53,6 +53,7 @@
             </div>
         </div>
     </header>
+    {% block main %}
     <main>
         <section id="banner">
             <div class="banner">
@@ -111,7 +112,6 @@
 
         </section>
     </main>
-    {% block main %}
     {% endblock main %}
     <!-- Incluir no base sempre esses 2 scripts para poder funcionar as animações das páginas, obrigada, de nada -->
     <script src="{% static 'plugins/simple-anime.js' %}"></script>
