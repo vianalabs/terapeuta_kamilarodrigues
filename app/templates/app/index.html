@@ -1,0 +1,60 @@
+{% extends "app/base.html" %}
+{% load static %}
+{% block main %}
+<section id="banner">
+    <div class="banner">
+        <div class="banner-flex container-1200">
+            <img src="{% static 'app/img/flor_logo.svg' %}" alt="Flor tulipa do logo no background como marca d'agua" width="757px" height="718px">
+            <h1 class="upper cheri container-995 fadeInDown" data-anime="200">Seu bem-estar começa <br> com um passo: <br><br><span class="upper cheri container-995 fadeInDown" data-anime="400">cuidar de você.</span></h1>
+        </div>
+        <div class="respiracao"></div>
+    </div>
+</section>
+<section id="especialidades" class="container-1200">
+    <div>
+        <h1 class="titulo upper ">especialidades</h1>
+        <div class="especialidades-cards">
+            <div class="container-especialidades">
+                <img src="{% static 'app/img/yoga1.svg' %}" alt="icone de bem estar">
+                <h2>Bem-estar emocional</h2>
+                <p>Cultive a harmonia interna, desenvolvendo uma maior compreensão e equilíbrio emocional.</p>
+            </div>
+            <div class="container-especialidades">
+                <img src="{% static 'app/img/humanity 1.svg' %}" alt="icone de auto cuidado">
+                <h2>Autocuidado</h2>
+                <p>Desenvolva práticas terapêuticas que promovem o cuidado de si mesmo, fortalecendo sua mente.</p>
+            </div>
+            <div class="container-especialidades">
+                <img src="{% static 'app/img/anxiety 1.svg' %}" alt="icone de ansiedade">
+                <h2>Gestão de Ansiedade</h2>
+                <p>Aprenda a controlar os pensamentos e sentimentos, promovendo a tranquilidade e o autocontrole.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="terapia" class="container-1200">
+    <div class="terapia-flex">
+        <div>
+            <h1 class="titulo upper">terapia</h1>
+            <p>A terapia é essencial para o bem-estar emocional, ajudando a lidar com desafios pessoais, promover o autoconhecimento e melhorar o equilíbrio mental. Ela oferece um espaço seguro para explorar sentimentos e fortalecer habilidades emocionais.
+                <br><br>
+                A terapia online traz ainda mais benefícios, pois oferece flexibilidade e acessibilidade, permitindo que você cuide da sua saúde mental de qualquer lugar, com conforto e praticidade.
+            </p>
+        </div>
+        <div class="terapia-cont-img">
+            <img src="{% static 'app/img/section_terapia.svg' %}" alt="Imagem de um escritório, com notebook e flores, ambiente acolhedor para fazer terapia">
+        </div>
+    </div>
+</section>
+<section id="sobre">
+    <div class="sobre-cont-img">
+        <img src="{% static 'app/img/sobre_rectangle.png' %}" alt="background">
+    </div>
+    <div class="sobre-flex">
+        <div>
+            <img src="{% static 'app/img/sobre_kamila.svg' %}" alt="">
+        </div>
+    </div>
+</section>
+{% endblock %}
+
