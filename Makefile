@@ -1,4 +1,4 @@
-PHONY: install run virtualenv ipython clean test pflake8 fmt lint
+PHONY: install run virtualenv ipython clean test pflake8 fmt lint live
 
 
 install:
@@ -10,8 +10,12 @@ virtualenv:
 	@python -m venv .venv
 
 
+live:
+	@python manage.py livereload
+
+
 run:
-	python manage.py runserver & python manage.py livereload
+	@python manage.py runserver
 
 
 ipython:
