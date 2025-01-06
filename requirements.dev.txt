@@ -2,7 +2,14 @@
 ipython
 ipdb
 pudb
+pytest
 pytest-watch
+
+
+# auto reload
+# django-livereload
+# django-livereload-server
+
 
 # Code Quality
 flake8
