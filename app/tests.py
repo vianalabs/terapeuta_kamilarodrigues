@@ -6,7 +6,7 @@ from django.urls import reverse
 @pytest.mark.unit
 def test_acess_index_true(client):
     """
-    Test if the index view returns a 200 status code when accessed.
+    Test if the index view returns a 200 status code when accesseds
     """
     url = reverse("index")
     response = client.get(url)

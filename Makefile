@@ -23,7 +23,7 @@ ipython:
 
 
 test:
-	@.venv/bin/pytest -vv -s
+	@.venv/bin/pytest -v -s
 
 	
 lint:

@@ -17,6 +17,7 @@ test = [
     "black",
     "isort",
     "pytest",
+    "pytest-django",
     "livereload",
 ]
 
