@@ -1,5 +1,5 @@
 [project]
-name = "Terapeuta Kamila Rodrigues"
+name = "terapeuta_kamila_rodrigues"
 version = "0.1.0"
 description = " Official website of Kamila Rodrigues, a professional therapist."
 readme = "README.md"
@@ -10,6 +10,9 @@ authors = [
 dependencies = [
     "django",
 ]
+
+[tool.setuptools.packages]
+find = { where = ["app", "kamila_project"] }
 
 [project.optional-dependencies]
 test = [
