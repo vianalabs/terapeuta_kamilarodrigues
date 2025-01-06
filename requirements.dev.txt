@@ -7,8 +7,8 @@ pytest-watch
 
 
 # auto reload
-django-livereload
-django-livereload-server
+# django-livereload
+# django-livereload-server
 
 
 # Code Quality

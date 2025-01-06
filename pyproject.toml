@@ -14,6 +14,7 @@ dependencies = [
 [tool.setuptools.packages]
 find = { where = ["app", "kamila_project"] }
 
+
 [project.optional-dependencies]
 test = [
     "flake8",
@@ -21,7 +22,7 @@ test = [
     "isort",
     "pytest",
     "pytest-django",
-    "livereload",
+    # "livereload",
 ]
 
 [tool.flake8]

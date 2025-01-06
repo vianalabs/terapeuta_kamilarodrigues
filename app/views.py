@@ -7,9 +7,10 @@ def base(request):
     return render(request, "app/base.html")
 
 
+
 def index(request):
     return render(request, "app/index.html")
-
+  
 
 def blog(request):
     posts = Post.objects.all().order_by("-created_at")

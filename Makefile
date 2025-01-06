@@ -25,7 +25,7 @@ ipython:
 test:
 	@.venv/bin/pytest -vs -s
 
-	
+
 lint:
 	@.venv/bin/pflake8 app kamila_project
 
