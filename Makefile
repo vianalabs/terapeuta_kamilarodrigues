@@ -1,18 +1,11 @@
-PHONY: install run virtualenv ipython clean test pflake8 fmt lint live
-
+PHONY: install run virtualenv ipython clean test pflake8 fmt lint
 
 install:
 	@echo "Installing for dev environment"
 	@.venv/bin/python -m pip install -e '.[test,dev]'
 
-
 virtualenv:
 	@python -m venv .venv
-
-
-live:
-	@python manage.py livereload
-
 
 run:
 	@python manage.py runserver
@@ -21,10 +14,8 @@ run:
 ipython:
 	@.venv/bin/ipython
 
-
 test:
 	@.venv/bin/pytest -vs -s
-
 
 lint:
 	@.venv/bin/pflake8 app kamila_project
