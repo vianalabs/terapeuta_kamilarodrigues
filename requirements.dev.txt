@@ -5,16 +5,8 @@ pudb
 pytest
 pytest-watch
 
-
-<<<<<<< Updated upstream
-# auto reload
-django-livereload
-django-livereload-server
-=======
 # auto reload front-end
 django-browser-reload
->>>>>>> Stashed changes
-
 
 # Code Quality
 flake8

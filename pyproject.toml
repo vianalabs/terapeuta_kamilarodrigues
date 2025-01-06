@@ -21,11 +21,7 @@ test = [
     "isort",
     "pytest",
     "pytest-django",
-<<<<<<< Updated upstream
-    "livereload",
-=======
     "django-browser-reload",
->>>>>>> Stashed changes
 ]
 
 [tool.flake8]
