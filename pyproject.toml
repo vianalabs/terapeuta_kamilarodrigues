@@ -8,7 +8,7 @@ authors = [
     { name = "Viana Labs", email = "contacto@vianalabs.pt" }
 ]
 dependencies = [
-    "django",
+    "flask",
 ]
 
 [project.optional-dependencies]
@@ -17,7 +17,6 @@ test = [
     "black",
     "isort",
     "pytest",
-    "livereload",
 ]
 
 [tool.flake8]
