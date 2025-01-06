@@ -22,6 +22,10 @@ ipython:
 	@.venv/bin/ipython
 
 
+test:
+	@.venv/bin/pytest -vv -s
+
+	
 lint:
 	@.venv/bin/pflake8 app kamila_project
 
