@@ -9,7 +9,6 @@ https://docs.djangoproject.com/en/5.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -40,7 +39,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "app",
+<<<<<<< Updated upstream
     #    "livereload",
+=======
+    "django_browser_reload",
+>>>>>>> Stashed changes
 ]
 
 MIDDLEWARE = [
@@ -51,7 +54,11 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+<<<<<<< Updated upstream
     #    "livereload.middleware.LiveReloadScript",
+=======
+    "django_browser_reload.middleware.BrowserReloadMiddleware",
+>>>>>>> Stashed changes
 ]
 
 ROOT_URLCONF = "kamila_project.urls"
